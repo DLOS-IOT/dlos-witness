@@ -1,0 +1,1 @@
+*/20 * * * * cd dlos-witness; node check_daemon.js 1>>~/.config/dlos-witness/check_daemon.log 2>>~/.config/dlos-witness/check_daemon.err

@@ -1,0 +1,27 @@
+{
+  "name": "dlos-witness",
+  "description": "dlos witness",
+  "author": "dlos",
+  "version": "0.1.7",
+  "main": "start.js",
+  "keywords": [
+    "witness",
+    "dlos"
+  ],
+  "license": "MIT",
+  "repository": {
+    "url": "git://github.com/DLOS-IOT/dlos-witness.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/DLOS-IOT/dlos-witness/issues"
+  },
+  "browser": {
+    "request": "browser-request",
+    "secp256k1": "secp256k1/js"
+  },
+  "dependencies": {
+    "dloscore": "git+https://github.com/DLOS-IOT/dloscore.git",
+    "dlos-headless": "git+https://github.com/DLOS-IOT/dlos-headless.git"
+  }
+}
