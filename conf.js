@@ -8,12 +8,14 @@ exports.bLight = false;
 
 exports.storage = 'sqlite';
 
+exports.admin_email='witness';
+exports.from_email='witness';
 
 exports.hub = 'dlos.cn/ds';
 exports.deviceName = 'Witness';
 exports.permanent_pairing_secret = 'randomstring';
 exports.control_addresses = ['DEVICE ALLOWED TO CHAT'];
-exports.payout_address = 'WHERE THE MONEY CAN BE SENT TO';
+exports.payout_address = 'XQ7PQ3ZLE5MEESCX2CV3PPKIWHFKQ3H6';
 
 exports.bSingleAddress = true;
 exports.THRESHOLD_DISTANCE = 50;

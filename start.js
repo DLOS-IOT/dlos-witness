@@ -22,12 +22,12 @@ if (!conf.bSingleAddress && require.main === module)
 headlessWallet.setupChatEventHandlers();
 
 function notifyAdmin(subject, body){
-	mail.sendmail({
+/*	mail.sendmail({
 		to: conf.admin_email,
 		from: conf.from_email,
 		subject: subject,
 		body: body
-	});
+	});*/
 }
 
 function notifyAdminAboutFailedWitnessing(err){
